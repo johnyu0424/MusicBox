@@ -1,0 +1,345 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B91CAFE216DDB8B900A19877 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B91CAFE116DDB8B900A19877 /* UIKit.framework */; };
+		B91CAFE416DDB8B900A19877 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B91CAFE316DDB8B900A19877 /* Foundation.framework */; };
+		B91CAFE616DDB8B900A19877 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B91CAFE516DDB8B900A19877 /* CoreGraphics.framework */; };
+		B91CAFEC16DDB8B900A19877 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B91CAFEA16DDB8B900A19877 /* InfoPlist.strings */; };
+		B91CAFEE16DDB8B900A19877 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B91CAFED16DDB8B900A19877 /* main.m */; };
+		B91CAFF216DDB8B900A19877 /* DropboxAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B91CAFF116DDB8B900A19877 /* DropboxAppDelegate.m */; };
+		B91CAFF416DDB8B900A19877 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B91CAFF316DDB8B900A19877 /* Default.png */; };
+		B91CAFF616DDB8B900A19877 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B91CAFF516DDB8B900A19877 /* Default@2x.png */; };
+		B91CAFF816DDB8B900A19877 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B91CAFF716DDB8B900A19877 /* Default-568h@2x.png */; };
+		B91CAFFB16DDB8B900A19877 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B91CAFF916DDB8B900A19877 /* MainStoryboard.storyboard */; };
+		B91CAFFE16DDB8B900A19877 /* DropboxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B91CAFFD16DDB8B900A19877 /* DropboxViewController.m */; };
+		B91CB00516DDB90200A19877 /* DropboxSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B91CB00416DDB90200A19877 /* DropboxSDK.framework */; };
+		B91CB00716DDBB0300A19877 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B91CB00616DDBB0300A19877 /* QuartzCore.framework */; };
+		B91CB00916DDBB5E00A19877 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B91CB00816DDBB5E00A19877 /* Security.framework */; };
+		B91CB00F16DE024700A19877 /* MusicListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B91CB00E16DE024700A19877 /* MusicListViewController.m */; };
+		B91CB01316DE470900A19877 /* Song1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B91CB01216DE470900A19877 /* Song1.mp3 */; };
+		B91CB01516DE4A3600A19877 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B91CB01416DE4A3600A19877 /* AVFoundation.framework */; };
+		B91CB01D16DE517D00A19877 /* safe_image.php.png in Resources */ = {isa = PBXBuildFile; fileRef = B91CB01C16DE517D00A19877 /* safe_image.php.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B91CAFDE16DDB8B900A19877 /* FirstDropbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstDropbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B91CAFE116DDB8B900A19877 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B91CAFE316DDB8B900A19877 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B91CAFE516DDB8B900A19877 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B91CAFE916DDB8B900A19877 /* FirstDropbox-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FirstDropbox-Info.plist"; sourceTree = "<group>"; };
+		B91CAFEB16DDB8B900A19877 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B91CAFED16DDB8B900A19877 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B91CAFEF16DDB8B900A19877 /* FirstDropbox-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FirstDropbox-Prefix.pch"; sourceTree = "<group>"; };
+		B91CAFF016DDB8B900A19877 /* DropboxAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DropboxAppDelegate.h; sourceTree = "<group>"; };
+		B91CAFF116DDB8B900A19877 /* DropboxAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DropboxAppDelegate.m; sourceTree = "<group>"; };
+		B91CAFF316DDB8B900A19877 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		B91CAFF516DDB8B900A19877 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		B91CAFF716DDB8B900A19877 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B91CAFFA16DDB8B900A19877 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		B91CAFFC16DDB8B900A19877 /* DropboxViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DropboxViewController.h; sourceTree = "<group>"; };
+		B91CAFFD16DDB8B900A19877 /* DropboxViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DropboxViewController.m; sourceTree = "<group>"; };
+		B91CB00416DDB90200A19877 /* DropboxSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DropboxSDK.framework; sourceTree = "<group>"; };
+		B91CB00616DDBB0300A19877 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B91CB00816DDBB5E00A19877 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		B91CB00D16DE024700A19877 /* MusicListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicListViewController.h; sourceTree = "<group>"; };
+		B91CB00E16DE024700A19877 /* MusicListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicListViewController.m; sourceTree = "<group>"; };
+		B91CB01216DE470900A19877 /* Song1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Song1.mp3; sourceTree = "<group>"; };
+		B91CB01416DE4A3600A19877 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		B91CB01C16DE517D00A19877 /* safe_image.php.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = safe_image.php.png; path = ../safe_image.php.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B91CAFDB16DDB8B900A19877 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B91CB01516DE4A3600A19877 /* AVFoundation.framework in Frameworks */,
+				B91CB00916DDBB5E00A19877 /* Security.framework in Frameworks */,
+				B91CB00716DDBB0300A19877 /* QuartzCore.framework in Frameworks */,
+				B91CAFE216DDB8B900A19877 /* UIKit.framework in Frameworks */,
+				B91CAFE416DDB8B900A19877 /* Foundation.framework in Frameworks */,
+				B91CAFE616DDB8B900A19877 /* CoreGraphics.framework in Frameworks */,
+				B91CB00516DDB90200A19877 /* DropboxSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B91CAFD516DDB8B900A19877 = {
+			isa = PBXGroup;
+			children = (
+				B91CAFE716DDB8B900A19877 /* FirstDropbox */,
+				B91CAFE016DDB8B900A19877 /* Frameworks */,
+				B91CAFDF16DDB8B900A19877 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B91CAFDF16DDB8B900A19877 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B91CAFDE16DDB8B900A19877 /* FirstDropbox.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B91CAFE016DDB8B900A19877 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B91CB01416DE4A3600A19877 /* AVFoundation.framework */,
+				B91CB00816DDBB5E00A19877 /* Security.framework */,
+				B91CB00616DDBB0300A19877 /* QuartzCore.framework */,
+				B91CB00416DDB90200A19877 /* DropboxSDK.framework */,
+				B91CAFE116DDB8B900A19877 /* UIKit.framework */,
+				B91CAFE316DDB8B900A19877 /* Foundation.framework */,
+				B91CAFE516DDB8B900A19877 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B91CAFE716DDB8B900A19877 /* FirstDropbox */ = {
+			isa = PBXGroup;
+			children = (
+				B91CAFF016DDB8B900A19877 /* DropboxAppDelegate.h */,
+				B91CAFF116DDB8B900A19877 /* DropboxAppDelegate.m */,
+				B91CAFF916DDB8B900A19877 /* MainStoryboard.storyboard */,
+				B91CAFFC16DDB8B900A19877 /* DropboxViewController.h */,
+				B91CAFFD16DDB8B900A19877 /* DropboxViewController.m */,
+				B91CAFE816DDB8B900A19877 /* Supporting Files */,
+				B91CB00D16DE024700A19877 /* MusicListViewController.h */,
+				B91CB00E16DE024700A19877 /* MusicListViewController.m */,
+			);
+			path = FirstDropbox;
+			sourceTree = "<group>";
+		};
+		B91CAFE816DDB8B900A19877 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B91CB01C16DE517D00A19877 /* safe_image.php.png */,
+				B91CB01216DE470900A19877 /* Song1.mp3 */,
+				B91CAFE916DDB8B900A19877 /* FirstDropbox-Info.plist */,
+				B91CAFEA16DDB8B900A19877 /* InfoPlist.strings */,
+				B91CAFED16DDB8B900A19877 /* main.m */,
+				B91CAFEF16DDB8B900A19877 /* FirstDropbox-Prefix.pch */,
+				B91CAFF316DDB8B900A19877 /* Default.png */,
+				B91CAFF516DDB8B900A19877 /* Default@2x.png */,
+				B91CAFF716DDB8B900A19877 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B91CAFDD16DDB8B900A19877 /* FirstDropbox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B91CB00116DDB8B900A19877 /* Build configuration list for PBXNativeTarget "FirstDropbox" */;
+			buildPhases = (
+				B91CAFDA16DDB8B900A19877 /* Sources */,
+				B91CAFDB16DDB8B900A19877 /* Frameworks */,
+				B91CAFDC16DDB8B900A19877 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FirstDropbox;
+			productName = FirstDropbox;
+			productReference = B91CAFDE16DDB8B900A19877 /* FirstDropbox.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B91CAFD616DDB8B900A19877 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Dropbox;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = tsungyen;
+			};
+			buildConfigurationList = B91CAFD916DDB8B900A19877 /* Build configuration list for PBXProject "FirstDropbox" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B91CAFD516DDB8B900A19877;
+			productRefGroup = B91CAFDF16DDB8B900A19877 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B91CAFDD16DDB8B900A19877 /* FirstDropbox */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B91CAFDC16DDB8B900A19877 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B91CAFEC16DDB8B900A19877 /* InfoPlist.strings in Resources */,
+				B91CAFF416DDB8B900A19877 /* Default.png in Resources */,
+				B91CAFF616DDB8B900A19877 /* Default@2x.png in Resources */,
+				B91CAFF816DDB8B900A19877 /* Default-568h@2x.png in Resources */,
+				B91CAFFB16DDB8B900A19877 /* MainStoryboard.storyboard in Resources */,
+				B91CB01316DE470900A19877 /* Song1.mp3 in Resources */,
+				B91CB01D16DE517D00A19877 /* safe_image.php.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B91CAFDA16DDB8B900A19877 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B91CAFEE16DDB8B900A19877 /* main.m in Sources */,
+				B91CAFF216DDB8B900A19877 /* DropboxAppDelegate.m in Sources */,
+				B91CAFFE16DDB8B900A19877 /* DropboxViewController.m in Sources */,
+				B91CB00F16DE024700A19877 /* MusicListViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B91CAFEA16DDB8B900A19877 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B91CAFEB16DDB8B900A19877 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B91CAFF916DDB8B900A19877 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B91CAFFA16DDB8B900A19877 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B91CAFFF16DDB8B900A19877 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B91CB00016DDB8B900A19877 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B91CB00216DDB8B900A19877 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FirstDropbox/FirstDropbox-Prefix.pch";
+				INFOPLIST_FILE = "FirstDropbox/FirstDropbox-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B91CB00316DDB8B900A19877 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FirstDropbox/FirstDropbox-Prefix.pch";
+				INFOPLIST_FILE = "FirstDropbox/FirstDropbox-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B91CAFD916DDB8B900A19877 /* Build configuration list for PBXProject "FirstDropbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B91CAFFF16DDB8B900A19877 /* Debug */,
+				B91CB00016DDB8B900A19877 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B91CB00116DDB8B900A19877 /* Build configuration list for PBXNativeTarget "FirstDropbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B91CB00216DDB8B900A19877 /* Debug */,
+				B91CB00316DDB8B900A19877 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B91CAFD616DDB8B900A19877 /* Project object */;
+}
